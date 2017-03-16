@@ -1,0 +1,7 @@
+name = input("What is the file?" )
+fileName = 'name'+'.jpg'
+im=Image.open(fileName)
+box=(50, 50, 200, 200)
+im_crop=im.crop(box)
+im_crop.show
+finalImage = input("New image name")
